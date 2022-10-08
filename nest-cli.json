@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "haun": {
+      "type": "library",
+      "root": "libs/haun",
+      "entryFile": "index",
+      "sourceRoot": "libs/haun/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/haun/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
